@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.repository-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: #f8f8f8;
+  border-radius: 24px;
+  height: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+@media (min-width: 576px) {
+  .repository-item {
+    flex-basis: 45%;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .repository-item {
+    flex-basis: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .repository-item {
+    flex-basis: 23%;
+  }
+}
+
+.repository-image {
+  height: 92px;
+  width: 92px;
+}
+
+.repository-name {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #e73959;
+}
+
+.stats-container {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.stats-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}
+
+.stats-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 12px;
+}

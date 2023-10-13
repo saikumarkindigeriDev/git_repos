@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.filters-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.repositories-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  max-width: 1140px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-img {
+  width: 250px;
+  height: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-img {
+    width: 572px;
+    height: 393px;
+  }
+}
+
+.error-msg {
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .error-msg {
+    font-size: 48px;
+  }
+}
